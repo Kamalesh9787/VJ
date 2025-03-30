@@ -257,7 +257,7 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>{filename}\n\n
+    CAPTION = """<b>{fil_ename}\n\n
 ┎┈┈┈┈┈┈┈୨♡୧┈┈┈┈┈┈┈┒
      Join : 💕 @Tamil_Mini
 ┖┈┈┈┈┈┈┈୨♡୧┈┈┈┈┈┈┈┚</b>""" 
