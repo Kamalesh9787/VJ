@@ -118,7 +118,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 
 # Token Verification Info :
-VERIFY = bool(environ.get('VERIFY', True))
+VERIFY = bool(environ.get('VERIFY', False))
 VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'tnshort.net')
 VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '5231203ce44c72e5be3059c1082f077ad7773cd8')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/tamil_mini')
@@ -131,9 +131,9 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 
 
 # Shortlink Info
-SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False)) # Set True Or False
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'techvjlink.site')
-SHORTLINK_API = environ.get('SHORTLINK_API', '4f39e46d4e086e60edddb2059c6a57d632ee9db3')
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True)) # Set True Or False
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'tnshort.net')
+SHORTLINK_API = environ.get('SHORTLINK_API', '5231203ce44c72e5be3059c1082f077ad7773cd8')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/tamil_movie_linkz') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
 
 
