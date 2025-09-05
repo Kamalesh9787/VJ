@@ -42,7 +42,7 @@ REQUEST_TO_JOIN_MODE = bool(environ.get('REQUEST_TO_JOIN_MODE', False)) # Set Tr
 TRY_AGAIN_BTN = bool(environ.get('TRY_AGAIN_BTN', True)) # Set True Or False (This try again button is only for request to join fsub not for normal fsub)
 
 # This Is Force Subscribe Channel, also known as Auth Channel 
-auth_channel = environ.get('AUTH_CHANNEL', '-1002538169502') # give your force subscribe channel id here else leave it blank
+auth_channel = environ.get('AUTH_CHANNEL', '-1002069904994') # give your force subscribe channel id here else leave it blank
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 
 # This Channel Is For When User Request File With command or hashtag like - /request or #request
@@ -94,7 +94,7 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+Inf5n7z8rXpmZDQ9')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+jykr9Md6SLk2MjI1')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Tamil_Mini')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Movie_Request_Group_07') # Support Chat Link Without https:// or @
 
@@ -132,8 +132,8 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True)) # Set True Or False
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'gyanilinks.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '3f2a1201be4c1e855d00ca3a0f312a597e0c0394')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'arolinks.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '3dc83efe3e538d961a0266ca7bede8f1456f1899')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How2Mini/5') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
 
 
@@ -201,4 +201,5 @@ else:
 # Don't Remove Credit @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
+
 
