@@ -5,7 +5,7 @@
 
 class script(object):
     START_TXT = """ɪ ᴀᴍ ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏꜰɪʟᴛᴇʀ ʙᴏᴛ. ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪ ᴡɪʟʟ ɢɪᴠᴇ ᴍᴏᴠɪᴇs ᴏʀ sᴇʀɪᴇs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘᴍ !! 😍\n
-🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/tamil_mini">𝐓ᴀᴍɪʟ 𝐌ɪɴɪ</a>"""
+🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/Smile_Uploads">𝐓ᴀᴍɪʟ 𝐌ɪɴɪ</a>"""
 
     CLONE_START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     
@@ -112,7 +112,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 my features Stay here new features coming soon...  
  <b>✯ Maintained by : <a href=https://t.me/tmv_admin_bot>☢Kamalesh☢</a></b>
   
- <b>✯ Join here : <a href=https://t.me/tamil_mini>☢Join my updates☢</a></b> 
+ <b>✯ Join here : <a href=https://t.me/Smile_Uploads>☢Join my updates☢</a></b> 
   
  ./id - <code>ɢᴇᴛ ɪᴅ ᴏꜰ ᴀ ꜱᴘᴇᴄɪꜰɪᴇᴅ ᴜꜱᴇʀ.</ 
  code> 
@@ -259,7 +259,7 @@ Nᴀᴍᴇ - {}"""
 
     CAPTION = """<b>{file_name}\n
 ┎┈┈┈┈┈┈┈୨♡୧┈┈┈┈┈┈┈┒
-     Join : 💕 @Tamil_Mini
+     Join : 💕 @Smile_Uploads
 ┖┈┈┈┈┈┈┈୨♡୧┈┈┈┈┈┈┈┚</b>""" 
 
     IMDB_TEMPLATE_TXT = """
@@ -355,7 +355,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
  </b>""" 
 
     PROGRESS_BAR = """\n
-╭━━━━❰ Tamil Mini Renaming... ❱━➣
+╭━━━━❰ Smile_Uploads Renaming... ❱━➣
 ┣⪼ 🗂️ : {1} | {2}
 ┣⪼ ⏳️ : {0}%
 ┣⪼ 🚀 : {3}/s
