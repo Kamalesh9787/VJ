@@ -261,7 +261,7 @@ async def auto_approve(client, message: ChatJoinRequest):
                 )
                 filetype = msg.media
                 file = getattr(msg, filetype.value)
-                title = '@Tamil_Mini  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
+                title = '@Smile_Uploads  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
                 size=get_size(file.file_size)
                 f_caption = f"<code>{title}</code>"
                 if CUSTOM_FILE_CAPTION:
@@ -285,7 +285,7 @@ async def auto_approve(client, message: ChatJoinRequest):
                 pass
             return await message.reply('No such file exist.')
         files = files_
-        title = '@Tamil_Mini  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files["file_name"].split()))
+        title = '@Smile_Uploads  ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files["file_name"].split()))
         size=get_size(files["file_size"])
         f_caption=files["caption"]
         if CUSTOM_FILE_CAPTION:
@@ -295,7 +295,7 @@ async def auto_approve(client, message: ChatJoinRequest):
                 logger.exception(e)
                 f_caption=f_caption
         if f_caption is None:
-            f_caption = f"@Tamil_Mini  {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files['file_name'].split()))}"
+            f_caption = f"@Smile_Uploads  {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files['file_name'].split()))}"
         if not await db.has_premium_access(message.from_user.id):
             if not await check_verification(client, message.from_user.id) and VERIFY == True:
                 btn = [[
@@ -345,5 +345,5 @@ async def auto_approve(client, message: ChatJoinRequest):
         chat = message.chat 
         user = message.from_user  
         await client.approve_chat_join_request(chat_id=chat.id, user_id=user.id)
-        text = f"<b>ʜᴇʟʟᴏ {message.from_user.mention} 👋,\n\nʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴊᴏɪɴ {message.chat.title} ɪs ᴀᴘᴘʀᴏᴠᴇᴅ.\n\nᴘᴏᴡᴇʀᴇᴅ ʙʏ - @Tamil_Mini</b>"
+        text = f"<b>ʜᴇʟʟᴏ {message.from_user.mention} 👋,\n\nʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴊᴏɪɴ {message.chat.title} ɪs ᴀᴘᴘʀᴏᴠᴇᴅ.\n\nᴘᴏᴡᴇʀᴇᴅ ʙʏ - @Smile_Uploads</b>"
         await client.send_message(chat_id=user.id, text=text)
